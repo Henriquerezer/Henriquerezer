@@ -8,6 +8,17 @@
 
 ### Estudo aplicações de Ciências de Dados e Aprendizado de máquinas na área da saúde - Em Florianópolis - SC
 
-- 👨‍🎓  &nbsp; Graduado em Engenharia Biomédica pela [UFN](https://www.ufn.edu.br/site/).
+- 👨‍🎓  &nbsp; Graduado em Engenharia Biomédica pela [UFN](https://www.ufn.edu.br/site/ensino/graduacao/engenharia-biomedica).
 - 👨‍💻 &nbsp; Atualmente sou mestrando no programa de pós-graduação em Engenharia Elétrica com linha de pesquisa em Engenharia Biomédica pela [UFSC](https://ppgeel.posgrad.ufsc.br/)
 - 📖 &nbsp; Estudando e praticando Ciência de dados e aprendizado de máquinas na área de Engenharia Biomédica
+
+**💻 Experiências:**
+
+| Python💜 |
+
+
+<div>
+  <a href="https://github.com/Henriquerezer">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&layout=compact&langs_count=7&theme=dracula"/>
+</div>
+ </a>
