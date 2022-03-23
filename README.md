@@ -25,11 +25,18 @@
 
 
   
+<!--
+![GitHub stats](https://readme-stats-cfgj2cxdy.vercel.app/api?username=Henriquerezer&count_private=true&show_icons=true&theme=tokyonight)
+![Top Langs](https://readme-stats-cfgj2cxdy.vercel.app/api/top-langs/?username=Henriquerezer&hide=php&theme=tokyonight)
+-->
 <div>
-  <a href="https://github.com/Henriquerezer">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&layout=compact&langs_count=7&theme=dracula"/>
+<a href="https://github-readme-stats.vercel.app/api?username=Henriquerezer&theme=tokyonight">
+  <img  align="left" src="https://github-readme-stats.vercel.app/api?username=Henriquerezer&count_private=true&show_icons=true&theme=tokyonight" />
+</a>
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&hide=php&theme=tokyonight">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&hide=php&theme=tokyonight" />
+</a>
 </div>
- </a>
  
  # My contributions
  
