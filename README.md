@@ -3,6 +3,8 @@
 <!-- BLOG-POST-LIST:END -->
 ## Olá! Sou Henrique Rezer Mosquér👋
 #### Bem vindo ao meu Github 🧑‍💻!
+ ![](https://visitor-badge.laobi.icu/badge?page_id=Henriquerezer.Henriquerezer)
+ [![Github](https://img.shields.io/github/followers/Henriquerezer?label=Follow&style=social)](https://github.com/Henriquerezer)
 
 [![Linkedin Badge](https://img.shields.io/badge/-HenriqueRezerMosquer-6633cc?-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henrique-rezer-mosquer-39074550/)](https://www.linkedin.com/in/henrique-rezer-mosquer-39074550/)
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-blue?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/henrique_rezer/)](https://www.instagram.com/henrique_rezer/) 
@@ -21,8 +23,7 @@
  <p align="center">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="40" style="vertical-align:top; margin:4px">
 
- ![](https://visitor-badge.laobi.icu/badge?page_id=Henriquerezer.Henriquerezer)
- [![Github](https://img.shields.io/github/followers/Henriquerezer?label=Follow&style=social)](https://github.com/Henriquerezer)
+
   
 <div>
   <a href="https://github.com/Henriquerezer">
