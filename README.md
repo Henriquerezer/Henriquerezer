@@ -1,10 +1,4 @@
-- 👋 Hi, I’m @Henriquerezer
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me hrezermosquer75@gmail.com
+## Olá! Sou Henrique Rezer Mosquér👋
+#### Bem vindo ao meu Github 🧑‍💻!
 
-<!---
-Henriquerezer/Henriquerezer is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+[![Linkedin Badge](https://img.shields.io/badge/-HenriqueRezerMosquer-6633cc?-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henrique-rezer-mosquer-39074550/)](https://www.linkedin.com/in/henrique-rezer-mosquer-39074550/)
