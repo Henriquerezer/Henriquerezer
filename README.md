@@ -24,5 +24,3 @@
  </a>
  
  
- ##
-  ![Snake animation](https://github.com/Henriquerezer/Henriquerezer/blob/output/github-contribution-grid-snake.svg)
