@@ -1,3 +1,6 @@
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 ## Olá! Sou Henrique Rezer Mosquér👋
 #### Bem vindo ao meu Github 🧑‍💻!
 
