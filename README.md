@@ -23,9 +23,9 @@
  <p align="center">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="40" style="vertical-align:top; margin:4px">
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer)](https://github.com/Henriquerezer/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer&theme=radical)](https://github.com/Henriquerezer/github-readme-stats)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&hide=javascript,css,scss,html&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&hide&layout=compact=javascript,css,scss,html&theme=radical)
  
  
  ## My contributions
