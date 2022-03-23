@@ -15,13 +15,14 @@
 **💻 Experiências:**
 
 | Python💜 |
+ <p align="center">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="40" style="vertical-align:top; margin:4px">
 
-
+  
 <div>
   <a href="https://github.com/Henriquerezer">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&layout=compact&langs_count=7&theme=dracula"/>
 </div>
  </a>
  
- <p align="center">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="40" style="vertical-align:top; margin:4px">
+
