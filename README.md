@@ -1,4 +1,4 @@
-# Blog posts
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 ## Olá! Sou Henrique Rezer Mosquér👋
@@ -38,7 +38,9 @@
 </a>
 </div>
  
- # My contributions
+ 
+ 
+ ## My contributions
  
  ![snake gif](https://github.com/Henriquerezer/Henriquerezer/blob/output/github-contribution-grid-snake.gif)
 
