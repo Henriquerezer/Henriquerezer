@@ -25,8 +25,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer&theme=radical)](https://github.com/Henriquerezer/github-readme-stats)
 
-[![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&theme=radical)](https://github.com/Henriquerezer/github-readme-stats)
- 
+
 
  
  ## My contributions
