@@ -11,7 +11,7 @@
 [![Gmail Badge](https://img.shields.io/badge/-hrezermosquer75@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hrezermosquer75@gmail.com)](mailto:hrezermosquer75@gmail.com)
 
 
-### Estudo aplicações de Ciências de Dados e Aprendizado de máquinas na área da saúde - Em Florianópolis - SC
+### Estudo aplicações de Análise de dados, Ciências de Dados e Aprendizado de máquinas na área da saúde - Em Florianópolis - SC
 
 - 👨‍🎓  &nbsp; Graduado em Engenharia Biomédica pela [UFN](https://www.ufn.edu.br/site/ensino/graduacao/engenharia-biomedica).
 - 👨‍💻 &nbsp; Atualmente sou mestrando no programa de pós-graduação em Engenharia Elétrica com linha de pesquisa em Engenharia Biomédica pela [UFSC](https://ppgeel.posgrad.ufsc.br/)
@@ -23,13 +23,25 @@
  <p align="center">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="Python" height="40" style="vertical-align:top; margin:4px">
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer&theme=radical)](https://github.com/Henriquerezer/Henriquerezer)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Henriquerezer&repo=Redes-neurais-primeiras-abordagens&theme=radical)](https://github.com/Henriquerezer/Redes-neurais-primeiras-abordagens)
-
- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Henriquerezer&repo=Breast_cancer&theme=radical)](https://github.com/Henriquerezer/Breast_cancer)
+_____________________________________________________________________________________________________________________________________________________________
  
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&layout=compact&theme=radical)](https://github.com/Henriquerezer/Henriquerezer)
+**Meus projetos** 
+ 
+:mag_right: Análise de dados (Power BI) -> Primeiras atividades realizadas utilizando a ferramenta Power BI para análise de dados. [Dashboards](https://github.com/Henriquerezer/dashboard). [Power BI]
+ 
+ :hospital: Modelo para a classificação de cancêres de mama foi utilizado a biblioteca Keras para o desenvolvimento de redes neurais. [Dashboards](https://github.com/Henriquerezer/Breast_cancer). [Breast Cancer]
+ 
+ _____________________________________________________________________________________________________________________________________________________________
+ **Repositórios de estudo**
+ 
+ :green_book: Repositório ([Dashboards](https://github.com/Henriquerezer/IA-Expert-Academy)) para atividades desenvolvidas nos curos da plataforma IA expert. [IA expert]
+ 
+ :closed_book: Repositório ([Machine_Learning](https://github.com/Henriquerezer/Machine_Learning)) para atividades desenvolvidas em plataforma como Udemy e Coursera. [Machine Learning]
+ 
+ :ledger: Repositório ([FLAI-Cursos](https://github.com/Henriquerezer/FLAI-Cursos)) para atividades desenvolvidas no Programa FLAI dominando Data Science 3.0.
+ 
+ 
+ [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer&theme=radical)](https://github.com/Henriquerezer/Henriquerezer)
  
  ## My contributions
  
