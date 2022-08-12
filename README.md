@@ -29,7 +29,7 @@ ________________________________________________________________________________
  
 :mag_right: Análise de dados (Power BI) -> Primeiras atividades realizadas utilizando a ferramenta Power BI para análise de dados. [Dashboards](https://github.com/Henriquerezer/dashboard). [Power BI]
  
- :hospital: Modelo para a classificação de cancêres de mama foi utilizado a biblioteca Keras para o desenvolvimento de redes neurais. [Dashboards](https://github.com/Henriquerezer/Breast_cancer). [Breast Cancer]
+ :hospital: Modelo para a classificação de cancêres de mama foi utilizado a biblioteca Keras para o desenvolvimento de redes neurais. [Brest_cancer](https://github.com/Henriquerezer/Breast_cancer). [Breast Cancer]
  
  _____________________________________________________________________________________________________________________________________________________________
  **Repositórios de estudo**
