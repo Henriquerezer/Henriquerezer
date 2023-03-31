@@ -43,6 +43,8 @@ ________________________________________________________________________________
  
  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer&theme=radical)](https://github.com/Henriquerezer/Henriquerezer)
  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&layout=compact&theme=radical)](https://github.com/Henriquerezer/github-readme-stats)
+ 
  ## My contributions
  
  ![snake gif](https://github.com/Henriquerezer/Henriquerezer/blob/output/github-contribution-grid-snake.gif)
