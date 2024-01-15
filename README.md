@@ -29,7 +29,9 @@ ________________________________________________________________________________
  
 :mag_right: Análise de dados (Power BI) -> Primeiras atividades realizadas utilizando a ferramenta Power BI para análise de dados. [Dashboards](https://github.com/Henriquerezer/dashboard). [Power BI]
  
- :hospital: Modelo para a classificação de cancêres de mama foi utilizado a biblioteca Keras para o desenvolvimento de redes neurais. [Brest_cancer](https://github.com/Henriquerezer/Breast_cancer). [Breast Cancer]
+:hospital: Modelo para a classificação de cancêres de mama foi utilizado a biblioteca Keras para o desenvolvimento de redes neurais. [Brest_cancer](https://github.com/Henriquerezer/Breast_cancer). [Breast Cancer]
+
+:hospital: Modelo para a classificação de tumores cerebral utilizando CNN e aprendizado por transferência. [Brain Tumor Classification (MRI)](https://github.com/Henriquerezer/Machine_Learning/tree/main/CNN%20Projects/Brain%20Tumor%20Classification%20(MRI)). [Tensor Flow]
  
  _____________________________________________________________________________________________________________________________________________________________
  **Repositórios de estudo**
