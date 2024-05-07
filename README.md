@@ -14,7 +14,7 @@
 ### Estudo aplicações de Análise de dados, Ciências de Dados e Aprendizado de máquinas na área da saúde - Em Florianópolis - SC
 
 - 👨‍🎓  &nbsp; Graduado em Engenharia Biomédica pela [UFN](https://www.ufn.edu.br/site/ensino/graduacao/engenharia-biomedica).
-- 👨‍💻 &nbsp; Atualmente sou mestrando no programa de pós-graduação em Engenharia Elétrica com linha de pesquisa em Engenharia Biomédica pela [UFSC](https://ppgeel.posgrad.ufsc.br/)
+- 👨‍💻 &nbsp; Mestre em Engenharia Elétrica pelo programa de pós-graduação em Engenharia Elétrica com linha de pesquisa em Engenharia Biomédica pela [UFSC](https://ppgeel.posgrad.ufsc.br/)
 - 📖 &nbsp; Estudando e praticando Ciência de dados e aprendizado de máquinas na área de Engenharia Biomédica
 
 **💻 Experiências:**
