@@ -43,7 +43,7 @@ ________________________________________________________________________________
  :ledger: Repositório ([FLAI-Cursos](https://github.com/Henriquerezer/FLAI-Cursos)) para atividades desenvolvidas no Programa FLAI dominando Data Science 3.0.
  
  
- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer&theme=radical)](https://github.com/Henriquerezer/Henriquerezer)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Henriquerezer&show_icons=true&theme=radical)
  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&layout=compact&theme=radical)](https://github.com/Henriquerezer/github-readme-stats)
  
