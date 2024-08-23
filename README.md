@@ -48,13 +48,7 @@ ________________________________________________________________________________
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Henriquerezer&layout=compact&theme=radical)](https://github.com/Henriquerezer/github-readme-stats)
  
  ## My contributions
- 
-###
-
 <br clear="both">
-
 <img src="https://raw.githubusercontent.com/Henriquerezer/Henriquerezer/output/snake.svg" alt="Snake animation" />
-
-###
 
 
