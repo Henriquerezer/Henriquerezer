@@ -9,7 +9,7 @@ from pathlib import Path
 from fetch_github_activity import ROOT, validate_days, write_changed
 
 THEMES = {
-    'light': {'bg': '#f7f8fa', 'ink': '#17283e', 'muted': '#4c6077',
+    'light': {'bg': '#eef0f3', 'ink': '#17283e', 'muted': '#4c6077',
               'line': '#d8e0ea', 'blue': '#175cd3', 'teal': '#087c80',
               'purple': '#6941c6', 'levels': ['#e1e7ef', '#9abcf2', '#5e92e0', '#2868c6', '#144392']},
     'dark': {'bg': '#111c2c', 'ink': '#edf3fc', 'muted': '#adbed3',
@@ -56,16 +56,14 @@ def hero(theme):
     body += text(30, 184, 'Medical AI research.', 25, 'blue')
     body += text(30, 217, 'Applied AI engineering.', 25)
     body += '</g>'
-    body += f'<path d="M30 244H610" stroke="{c["line"]}"/>'
-    body += text(30, 273, 'PhD student · Computer Science · UFSC', 17, 'muted')
-    # Abstract image / representation / evidence motif, not a medical image.
-    body += f'<g class="enter later" fill="none" stroke="{c["blue"]}" stroke-width="1.6" opacity=".8">'
-    body += '<rect x="476" y="71" width="106" height="106" rx="18"/>'
-    body += '<rect x="493" y="88" width="72" height="72" rx="36"/>'
-    body += '<path d="M529 71V177M476 124H582M493 88L565 160M565 88L493 160"/>'
-    body += '<circle cx="529" cy="124" r="16"/></g>'
-    body += text(488, 202, 'MODEL', 12, 'muted', 700)
-    body += text(488, 220, '↳ EVIDENCE', 12, 'muted', 700)
+    body += f'<path d="M30 305H610" stroke="{c["line"]}"/>'
+    body += text(30, 333, 'PhD student · Computer Science · UFSC', 17, 'muted')
+    portrait = (ROOT / 'henrique_ascii_clean.txt').read_text(encoding='utf-8-sig').splitlines()
+    body += '<rect x="350" y="24" width="264" height="274" rx="12" fill="#17283e"/>'
+    body += '<g aria-label="ASCII portrait" class="enter later" fill="#ecf4ff" font-family="Courier New,monospace" font-size="12" xml:space="preserve">'
+    for index, row in enumerate(portrait):
+        body += f'<text x="356" y="{28 + index * 9.2:.2f}" xml:space="preserve">{escape(row)}</text>'
+    body += '</g>'
     return body
 
 
@@ -130,7 +128,7 @@ def render(output, data, static=False):
         validate_days(data['days'])
     for theme in THEMES:
         cards = {
-            'hero': (300, 'Henrique Rezer Mosquér — Medical AI research and applied AI engineering', hero(theme)),
+            'hero': (350, 'Henrique Rezer Mosquér — Medical AI research and applied AI engineering', hero(theme)),
             'research': (116, 'Research — Medical AI and computer vision', pillar(1, 'RESEARCH', 'Medical AI & computer vision', 'Models, experiments and evidence.', 'blue', theme)),
             'engineering': (116, 'Engineering — LLMs, RAG and AI systems', pillar(2, 'ENGINEERING', 'LLMs, RAG & AI systems', 'Connecting models to applications.', 'teal', theme)),
             'data': (116, 'Data — Machine learning and analytics', pillar(3, 'DATA', 'Machine learning & analytics', 'From data preparation to interpretation.', 'purple', theme)),

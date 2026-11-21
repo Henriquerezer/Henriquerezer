@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="cards/hero-dark.svg">
-  <img src="cards/hero.svg" width="100%" alt="Henrique Rezer Mosquér — Medical AI research. Applied AI engineering.">
+  <img src="cards/hero.svg" width="100%" alt="Henrique Rezer Mosquér — Medical AI research. Applied AI engineering. ASCII portrait created from Henrique's photo.">
 </picture>
 
 # Henrique Rezer Mosquér

@@ -1,6 +1,6 @@
 # Maintaining the profile
 
-The README is the editorial source. `scripts/render_readme_cards.py` generates original artwork using Python 3.12+ and system fonts. No third-party rendering service or font download is required. `data/contributions.json` contains only dates and counts from GitHub's publicly visible calendar, plus provenance.
+The README is the editorial source. `scripts/render_readme_cards.py` generates original artwork using Python 3.12+ and system fonts. The hero reads `henrique_ascii_clean.txt`, a simplified and cropped interpretation of Henrique's supplied portrait. The earlier dense `henrique_ascii.txt` and source photo are not needed in the public profile. No third-party rendering service or font download is required. `data/contributions.json` contains only dates and counts from GitHub's publicly visible calendar, plus provenance.
 
 ## Rebuild
 

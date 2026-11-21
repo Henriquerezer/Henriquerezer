@@ -80,7 +80,8 @@ class ProfileTests(unittest.TestCase):
             hero = (Path(d) / 'hero.svg').read_text(encoding='utf-8')
             self.assertIn('ASCII portrait', hero)
             self.assertIn('#eef0f3', hero)
-            self.assertIn('Yznuxl1lffltl1tlltxcl', hero)
+            self.assertIn('***##', hero)
+            self.assertNotIn('Yznuxl1lffltl1tlltxcl', hero)
 
 
 if __name__ == '__main__':
