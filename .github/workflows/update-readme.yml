@@ -1,0 +1,50 @@
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'Henriquerezer/Henriquerezer' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Verify generator and collector
+        run: python -m unittest discover -s tests -v
+      - name: Fetch public calendar
+        id: activity
+        continue-on-error: true
+        run: python scripts/fetch_github_activity.py
+      - name: Preserve last good snapshot on network or format failure
+        if: steps.activity.outcome == 'failure'
+        run: |
+          echo "::warning::Calendar refresh failed; using the dated last good snapshot."
+          test -f data/contributions.json
+      - name: Render cards
+        run: python scripts/render_readme_cards.py
+      - name: Commit only changed generated files
+        run: |
+          git add -- data/contributions.json cards/*.svg
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh public activity cards"
+          git push

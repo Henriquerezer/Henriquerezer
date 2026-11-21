@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+.preview/
+
+
+AUDITORIA-INICIAL.md
+foto.jpeg
+henrique_ascii.txt

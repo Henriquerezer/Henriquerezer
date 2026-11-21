@@ -1,14 +1,8 @@
 name: Generate snake animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
+  # Legacy artwork is preserved for manual use. The new README uses local cards.
   workflow_dispatch:
-
-  push:
-    branches:
-    - master
 
 jobs:
   generate:
