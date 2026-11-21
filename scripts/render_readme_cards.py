@@ -58,11 +58,11 @@ def hero(theme):
     body += '</g>'
     body += f'<path d="M30 305H610" stroke="{c["line"]}"/>'
     body += text(30, 333, 'PhD student · Computer Science · UFSC', 17, 'muted')
-    portrait = (ROOT / 'henrique_ascii_clean.txt').read_text(encoding='utf-8-sig').splitlines()
-    body += '<rect x="350" y="24" width="264" height="274" rx="12" fill="#17283e"/>'
-    body += '<g aria-label="ASCII portrait" class="enter later" fill="#ecf4ff" font-family="Courier New,monospace" font-size="12" xml:space="preserve">'
+    portrait = (ROOT / 'henrique_ascii_i.txt').read_text(encoding='utf-8-sig').splitlines()
+    body += '<rect x="350" y="24" width="264" height="274" rx="12" fill="#000000"/>'
+    body += '<g aria-label="ASCII portrait" class="enter later" fill="#ffffff" font-family="Courier New,monospace" font-size="10.5" font-weight="700" xml:space="preserve">'
     for index, row in enumerate(portrait):
-        body += f'<text x="356" y="{28 + index * 9.2:.2f}" xml:space="preserve">{escape(row)}</text>'
+        body += f'<text x="353" y="{27 + index * 6.3:.2f}" xml:space="preserve">{escape(row)}</text>'
     body += '</g>'
     return body
 
