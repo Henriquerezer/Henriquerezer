@@ -73,15 +73,13 @@ class ProfileTests(unittest.TestCase):
             render(Path(d), None, static=True)
             self.assertEqual(before, {p.name: p.read_bytes() for p in files})
 
-    def test_hero_uses_supplied_ascii_and_gray_surface(self):
+    def test_hero_embeds_portrait_and_uses_gray_surface(self):
         from render_readme_cards import render
         with tempfile.TemporaryDirectory() as d:
             render(Path(d), None, static=True)
             hero = (Path(d) / 'hero.svg').read_text(encoding='utf-8')
-            self.assertIn('ASCII portrait', hero)
+            self.assertIn('data:image/png;base64,', hero)
             self.assertIn('#eef0f3', hero)
-            self.assertIn('IIIIII', hero)
-            self.assertNotIn('***##', hero)
 
 
 if __name__ == '__main__':

@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 .preview/
+Retrato*.png
+henrique_ascii*.txt
 
 
 AUDITORIA-INICIAL.md

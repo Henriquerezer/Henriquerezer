@@ -2,9 +2,11 @@
 from collections import defaultdict
 from datetime import date, timedelta
 from html import escape
+import base64
 import json
 import os
 from pathlib import Path
+import re
 
 from fetch_github_activity import ROOT, validate_days, write_changed
 
@@ -30,6 +32,20 @@ def text(x, y, value, size=18, fill='ink', weight=400, extra=''):
             f'font-weight="{weight}" {extra}>{escape(str(value))}</text>')
 
 
+def portrait_uri():
+    """Use the locally prepared portrait, or the image embedded in the committed hero."""
+    prepared = ROOT / '.preview' / 'portrait-readme.png'
+    if prepared.exists():
+        return 'data:image/png;base64,' + base64.b64encode(prepared.read_bytes()).decode('ascii')
+    existing = ROOT / 'cards' / 'hero.svg'
+    if existing.exists():
+        match = re.search(r'href="(data:image/png;base64,[A-Za-z0-9+/=]+)"',
+                          existing.read_text(encoding='utf-8'))
+        if match:
+            return match.group(1)
+    raise ValueError('No prepared portrait or generated hero available')
+
+
 def svg(height, title, body, theme, static):
     colors = THEMES[theme]
     styles = ''.join(f'.{key}{{fill:{colors[key]}}}' for key in ('ink', 'muted', 'blue', 'teal', 'purple'))
@@ -47,7 +63,7 @@ def svg(height, title, body, theme, static):
 '''
 
 
-def hero(theme):
+def hero(theme, image_uri):
     c = THEMES[theme]
     body = text(30, 38, 'RESEARCH  /  ENGINEERING  /  DATA', 14, 'muted', 700)
     body += '<g class="enter">'
@@ -56,14 +72,9 @@ def hero(theme):
     body += text(30, 184, 'Medical AI research.', 25, 'blue')
     body += text(30, 217, 'Applied AI engineering.', 25)
     body += '</g>'
+    body += f'<image x="355" y="24" width="260" height="260" href="{image_uri}"/>'
     body += f'<path d="M30 305H610" stroke="{c["line"]}"/>'
     body += text(30, 333, 'PhD student · Computer Science · UFSC', 17, 'muted')
-    portrait = (ROOT / 'henrique_ascii_i.txt').read_text(encoding='utf-8-sig').splitlines()
-    body += '<rect x="350" y="24" width="264" height="274" rx="12" fill="#000000"/>'
-    body += '<g aria-label="ASCII portrait" class="enter later" fill="#ffffff" font-family="Courier New,monospace" font-size="10.5" font-weight="700" xml:space="preserve">'
-    for index, row in enumerate(portrait):
-        body += f'<text x="353" y="{27 + index * 6.3:.2f}" xml:space="preserve">{escape(row)}</text>'
-    body += '</g>'
     return body
 
 
@@ -126,9 +137,10 @@ def render(output, data, static=False):
             raise ValueError('Unexpected snapshot identity or schema')
         date.fromisoformat(data['observed_on'])
         validate_days(data['days'])
+    image_uri = portrait_uri()
     for theme in THEMES:
         cards = {
-            'hero': (350, 'Henrique Rezer Mosquér — Medical AI research and applied AI engineering', hero(theme)),
+            'hero': (350, 'Henrique Rezer Mosquér — Medical AI research and applied AI engineering', hero(theme, image_uri)),
             'research': (116, 'Research — Medical AI and computer vision', pillar(1, 'RESEARCH', 'Medical AI & computer vision', 'Models, experiments and evidence.', 'blue', theme)),
             'engineering': (116, 'Engineering — LLMs, RAG and AI systems', pillar(2, 'ENGINEERING', 'LLMs, RAG & AI systems', 'Connecting models to applications.', 'teal', theme)),
             'data': (116, 'Data — Machine learning and analytics', pillar(3, 'DATA', 'Machine learning & analytics', 'From data preparation to interpretation.', 'purple', theme)),

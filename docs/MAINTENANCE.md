@@ -1,6 +1,8 @@
 # Maintaining the profile
 
-The README is the editorial source. `scripts/render_readme_cards.py` generates original artwork using Python 3.12+ and system fonts. The hero reads `henrique_ascii_i.txt`, a 42 × 42 interpretation of Henrique's supplied portrait using only `I` and spaces. White letters sit on a black portrait panel. The source photo is not needed in the public profile. No third-party rendering service or font download is required. `data/contributions.json` contains only dates and counts from GitHub's publicly visible calendar, plus provenance.
+The README is the editorial source. `scripts/render_readme_cards.py` generates original artwork using Python 3.12+ and system fonts. The hero embeds a reduced copy of Henrique's chosen ASCII-style PNG as a data URI inside the SVG. Source PNGs and ASCII drafts are ignored by Git and remain local. No third-party rendering service or font download is required. `data/contributions.json` contains only dates and counts from GitHub's publicly visible calendar, plus provenance.
+
+To replace the portrait, resize the local source PNG to 560 × 560 pixels and save it as `.preview/portrait-readme.png`, then run the generator. When the source is absent (as in GitHub Actions), the generator reuses the image already embedded in the committed `cards/hero.svg`. Keep that generated SVG in the repository; it is the public portrait artifact. The currently prepared copy is about 460 KB before base64 encoding.
 
 ## Rebuild
 
