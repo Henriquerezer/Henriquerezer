@@ -1,6 +1,6 @@
 # Profile design and implementation plan
 
-The profile should make Henrique's research, software and data work understandable within one screen. Professional background comes from the owner; project descriptions come from public source inspection. No private project information belongs here.
+The profile should make Henrique's research, software and data work understandable within one screen. Professional background comes from the owner; project descriptions come from repository inspection. The owner approved limited previews of the private Formula 1 pipeline and medical imaging MCP prototype. Private audit findings and restricted materials remain outside this repository.
 
 ## Directions
 
@@ -10,14 +10,14 @@ The profile should make Henrique's research, software and data work understandab
 
 ## Editorial structure
 
-Hero: “Medical AI research. Applied AI engineering.” Name and PhD context in native text as well as artwork. Three short linked pillar cards. Four public project links with honest maturity labels. Research section distinguishes author-reported acceptance from publication. A compact evidence-based stack, a Portuguese summary, and activity below the work.
+Hero: “Medical AI research. Applied AI engineering.” Name and PhD context in native text as well as artwork. Three short linked pillar cards. Four public project links and two approved private previews with honest maturity labels. The preview links become accessible after the owner makes those repositories public. Research section distinguishes author-reported acceptance from publication. A compact evidence-based stack, a Portuguese summary, and activity below the work.
 
-No clinical validation claims, inflated performance, private project names, visitor counters or decorative technology badges. Research details requiring further clearance stay out. Contact links reuse the existing public profile.
+No clinical validation claims, inflated performance, restricted research details, visitor counters or decorative technology badges. The approved previews describe only inspected implementation; they do not imply verified predictive quality or clinical readiness. Contact links reuse the existing public profile.
 
 ## Implementation plan
 
 - [ ] Preserve original files externally; use a local working branch; do not commit or publish.
-- [ ] Write the main README, with four public exploratory projects and no unsupported metrics.
+- [ ] Write the main README, with four public exploratory projects, two approved private previews and no unsupported metrics.
 - [ ] Implement Python standard-library activity collection from GitHub's public calendar. Reject missing, malformed, duplicate and incomplete dates; do not substitute zero for unknown counts. Public calendar aggregates may include anonymized private activity if the owner enabled it; never infer private repositories.
 - [ ] Keep the last valid snapshot on fetch failures, with its observation date visible. Write only changed bytes. No PAT required; GITHUB_TOKEN is scoped only to updating generated files in the workflow.
 - [ ] Generate six SVG components in light/dark variants, with short one-shot CSS animation, reduced-motion handling, XML escaping and STATIC=1. No external assets or fonts.

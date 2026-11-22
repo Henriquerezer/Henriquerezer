@@ -44,6 +44,6 @@ Generate the local GitHub-width approximation with `python scripts/preview_profi
 
 ## Editorial rules
 
-Keep private audits and backups outside the versioned tree. Never add private project details, credentials, medical samples or unpublished metrics. Project status is descriptive, not proof of production quality. Verify personal contribution before asserting exclusive authorship. Acceptance of the Healthcom work is owner-reported; replace the status only after verifying the proceedings record or DOI.
+Keep private audits and backups outside the versioned tree. The owner approved only the limited Formula 1 and medical imaging MCP previews in this README; review any further private project disclosure individually. Never add credentials, medical samples, restricted data or unpublished metrics. Project status is descriptive, not proof of production quality. Verify personal contribution before asserting exclusive authorship. Acceptance of the Healthcom work is owner-reported; replace the status only after verifying the proceedings record or DOI.
 
 Visual approach studied: [Avi Vashishta's SVG README article](https://www.avivashishta.com/blog/github-profile-readme-animated-svg-cards). This implementation and composition are original; no source code, portrait or font files were copied.

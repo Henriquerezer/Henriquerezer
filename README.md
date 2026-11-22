@@ -19,13 +19,15 @@ MSc in Electrical Engineering, with a focus on Biomedical Engineering, at **UFSC
 
 ## Selected projects
 
-A selection of public prototypes and learning projects. The links expose the implementation and its current limitations; they do not imply production readiness or clinical validation.
+A selection of prototypes and learning projects. Four repositories are public; the two private previews link to their implementation branches and will become accessible after the repositories are released. None of these projects implies production readiness or clinical validation.
 
 | Project | Problem and implementation | Status |
 | :--- | :--- | :--- |
+| [Medical imaging MCP prototype](https://github.com/Henriquerezer/mcp_cv/tree/segmentation) | Connects MCP tools, a FastAPI backend, a separate PyTorch inference service and a React interface for chest X-ray segmentation and dental image detection. **Python · FastMCP · FastAPI · PyTorch · React · Docker Compose.** Includes API, integration and UI tests; no clinical validation is claimed. | Private preview · release pending review |
 | [Gesture-controlled video effect](https://github.com/Henriquerezer/teletransporte) | Connects camera frames from a browser extension to a gesture detector through a WebSocket API. **FastAPI · MediaPipe · JavaScript · Docker.** Modular backend and tests are available in the repository. | Prototype |
 | [Local document RAG](https://github.com/Henriquerezer/LLM-BOT) | Extracts PDF text, retrieves relevant passages and returns answers with source-page references. **Python · Ollama · ChromaDB · PyMuPDF.** Includes ingestion and an interactive query script. | In development |
 | [Formula 1 ML experiments](https://github.com/Henriquerezer/F1-ML) | Explores historical racing data through SQL features, preprocessing and model tracking. **pandas · scikit-learn · SQLite · MLflow.** Evaluation methodology needs further review; no performance claims are made here. | Experimental |
+| [Formula 1 prediction pipeline](https://github.com/Henriquerezer/Formula-1) | Collects and validates race data, builds analysis datasets, and runs experimental training and inference through a CLI. **Python · FastF1 · MLflow · pytest.** Includes tests for data loading and validation; prediction quality has not been independently verified. | Private preview · public release planned |
 | [Olist analytics study](https://github.com/Henriquerezer/dashboard/tree/main/Olist_e_comerce) | Examines e-commerce orders, delivery and financial indicators using the public Olist dataset. **Power BI.** Includes a dashboard template and PDF presentation. | Course project |
 
 ## Research
@@ -64,7 +66,7 @@ Publicly visible calendar activity, shown for context rather than as a measure o
 <details>
 <summary>Em português</summary>
 
-Sou doutorando em Ciência da Computação na UFSC, mestre em Engenharia Elétrica pela UFSC e graduado em Engenharia Biomédica pela UFN. Pesquiso IA aplicada a imagens médicas e desenvolvo aplicações com modelos de linguagem, visão computacional e análise de dados. Os projetos acima são exemplos públicos de implementação e aprendizado, com seus estágios de maturidade indicados.
+Sou doutorando em Ciência da Computação na UFSC, mestre em Engenharia Elétrica pela UFSC e graduado em Engenharia Biomédica pela UFN. Pesquiso IA aplicada a imagens médicas e desenvolvo aplicações com modelos de linguagem, visão computacional e análise de dados. A seleção acima mostra exemplos de implementação e aprendizado, com seus estágios de maturidade indicados; os projetos MCP de imagens médicas e o pipeline de Fórmula 1 ainda são privados.
 
 </details>
 
